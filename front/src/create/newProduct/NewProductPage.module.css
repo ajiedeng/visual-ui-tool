@@ -1,0 +1,192 @@
+.NewProductPage{
+    margin-top: 16px;
+    background: #fff;
+    position: relative;
+}
+.NewProductPage .container{
+   width: 748px;
+   margin: 0 auto;
+   padding: 45px 0 27px;
+}
+.row span{
+    font-size:14px;
+    color:rgba(0,0,0,0.85);
+    padding-right: 8px;
+}
+.container .row:first-child{
+    padding-bottom: 28px;
+}
+.row .inputBox{
+    width:435px;
+    /*height:32px;*/
+    line-height: 32px;
+    display: inline-block;
+}
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    /*border:1px solid rgba(0,0,0,0.15);*/
+    border-radius:4px;
+    text-indent: 12px;
+}
+.row.category{
+    padding: 40px 0;
+}
+.row.category div{
+    display: inline;
+}
+.row.category div p{
+   width: 58px;
+   height: 22px;
+   border-radius:4px;
+   color:rgba(0,0,0,0.65);
+   font-size: 14px;
+   text-align: center;
+   display: inline-block;
+   margin-right: 7px;
+   cursor: pointer;
+    margin-bottom: 0;
+}
+.row.category .selected{
+    background: #1890ff;
+    color: white;
+}
+.template {
+    text-align: center;
+}
+.template span{
+    color:rgba(0,0,0,0.85);
+    font-size:18px;
+}
+.template  .preview{
+    padding-top: 20px;
+    text-align: left;
+    width: 630px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+.template  .preview div{
+    width:170px;
+    height:300px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.template  .preview div:first-child{
+    /*margin-left: 0;*/
+}
+.preview div img{
+    width: 100%;
+    height: 100%;
+}
+.template .carouselContainer{
+    width: 630px;
+    margin:  0 auto;
+    padding-top: 20px;
+}
+.template .carouselContainer.oneCard{
+    width: 210px;
+}
+.template .carouselContainer.twoCard{
+    width: 420px;
+}
+.template .carouselContainer .carouselBtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #cccccc;
+    margin: 0 auto;
+}
+.template .carouselContainer .carouselBtn svg{
+    width: 100%;
+    height: 100%;
+}
+.template .carouselContainer .carouselDiv{
+    width:180px;
+    height:310px;
+    /*display: inline-block;*/
+    margin: 10px 20px 0 20px;
+    border: 10px solid rgba(255,255,255,1);
+    position: relative;
+}
+.template .carouselContainer .carouselDiv .carouselMask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .5;
+    top: 0;
+    left: 0;
+}
+.template .carouselContainer .carouselDiv.carouselDivSelected{
+    border: 5px solid #1890ff;
+    /*width: 180px;*/
+    /*height: 300px;*/
+}
+.selectedIcon{
+    background: #1890ff;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 2;
+    overflow: auto;
+}
+.selectedIcon svg{
+    width: 100%;
+    height: 100%;
+    vertical-align: baseline;
+}
+.template .carouselContainer .carouselDiv img{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.tempFun{
+    padding: 28px 0 21px;
+}
+.tempFun p{
+    color:rgba(0,0,0,0.45);
+    font-size:12px;
+    margin: 0;
+}
+.supports{
+    height: 140px;
+}
+.supports.hidden{
+    visibility: hidden;
+}
+.supports p{
+    color:rgba(0,0,0,0.45);
+    font-size: 12px;
+    padding: 28px 0 21px;
+    margin: 0;
+}
+.paging{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 64px;
+}
+.supports ul{
+    height: 50px;
+    overflow: auto;
+}
+.supports ul li{
+    width:60px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    background:rgba(245,245,245,1);
+    border-radius:4px;
+    border:1px solid rgba(217,217,217,1);
+    display: inline-block;
+    margin-right: 20px;
+}
+.supports ul li:last-child{
+    margin-right: 0;
+}

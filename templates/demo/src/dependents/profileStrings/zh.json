@@ -1,0 +1,34 @@
+{ "cat_name": "扫地机器人",
+  "dev_name": "安泰迪扫地机器人",
+  "error": {
+    "cmd": "Execute command error",
+    "device_offline": "Device is offline",
+    "sdk": "SDK init failed"
+  },
+  "intfs": {
+    "batstate": {"name": "电流图标", "unit": "", "values": {"1": "0", "2": "100"}},
+    "border": {"name": "沿边", "values": {"0": "关", "1": "开"}},
+    "dblclean": {"name": "定点", "values": {"0": "关", "1": "开"}},
+    "dirctrl": {"name": "方向键", "values": {"0": "停止", "1": "前进", "2": "后退", "3": "左转", "4": "右转"}},
+    "fullelectric": {"name": "满电清扫", "values": {"0": "关", "1": "开"}},
+    "pwr2": {"name": "自动", "values": {"0": "关", "1": "开"}},
+    "pwr": {"name": "电源开", "values": {"0": "关", "1": "开"}},
+    "pwr1": {"name": "回充", "values": {"0": "关", "1": "开"}},
+    "robot_control": {"name": "启停按键", "values": {"0": "启动", "1": "停止"}},
+    "swprbt_appoint1": {"name": "预约清扫", "values": {"0": "关闭", "1": "单次", "2": "循环"}},
+    "swprbt_state": {
+      "name": "工作状态",
+      "values": {
+        "1": "休眠",
+        "11": "拖地工作",
+        "12": "寻找充电桩",
+        "13": "清扫工作",
+        "2": "待机",
+        "6": "充电中",
+        "7": "充电完成"
+      }
+    },
+    "swprbt_time": {"name": "工作时长", "unit": "min", "values": {"1": "0", "2": "1440"}}
+  },
+  "vendor_name": "BroadLink"
+}

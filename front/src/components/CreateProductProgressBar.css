@@ -1,0 +1,33 @@
+.num{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   line-height: 32px;
+   border-radius: 16px;
+   text-align: center;
+   color:rgba(0,0,0,0.25);
+   font-size: 16px;
+   border:1px solid rgba(0,0,0,0.15);
+   box-sizing: border-box;
+   margin-right: 8px;
+}
+.num-1:after{
+     content:"1";
+     text-align:center;
+     display:block;
+}
+.num-2:after{
+     content:"2";
+     text-align:center;
+     display:block;
+}
+.num-3:after{
+    content:"3";
+    text-align:center;
+    display:block;
+}
+.num-4:after{
+    content:"4";
+    text-align:center;
+    display:block;
+}
