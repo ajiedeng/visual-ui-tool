@@ -1,7 +1,0 @@
-.normal>:first-child {
-    border: 5px solid transparent;
-}
-
-.highlight>:first-child {
-    border: 5px solid #00B9FA;
-}
