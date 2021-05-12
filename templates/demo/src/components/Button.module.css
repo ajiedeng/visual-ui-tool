@@ -1,0 +1,37 @@
+
+.Buttons{
+    text-align: center;
+    padding: 0 36px;
+}
+.Buttons span{
+    color:rgba(255,255,255,1);
+    font-size: 26px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    line-height: 88px;
+    margin-bottom: 16px;
+    border:2px solid transparent;
+    border-radius: 50%;
+}
+.icon svg{
+    vertical-align: middle;
+    max-width:48px;
+    max-height: 48px;
+}
+.icon.on{
+    color: #fff;
+    background:#fff;
+}
+.icon img{
+    width: 100%;
+}
+.fillOff *{
+    fill: #fff;
+}
+
+.fillOn *{
+    z-index: 2;
+    fill: #FFAA00;
+}

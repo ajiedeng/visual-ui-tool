@@ -1,0 +1,38 @@
+.issuesPagination{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.issuesPagination ul {
+    display: flex;
+    justify-content: center;
+}
+.issuesPagination ul li{
+    display: inline-block;
+    width:22px;
+    height:22px;
+    border-radius:4px;
+    text-align: center;
+    cursor: pointer;
+    margin:  0 10px;
+}
+.issuesPagination ul li.selected{
+    background: #1890FF;
+}
+.issuesPagination ul li.selected a{
+    color:#fff;
+}
+.issuesPagination ul li.previous.disabled a{
+    color: rgba(0,0,0,0.25);
+}
+.issuesPagination .previous a, .issuesPagination .next a{
+    font-size: 28px;
+    line-height: 18px;
+}
+.issuesPagination ul li a{
+    color:rgba(0,0,0,0.65);
+    font-size: 14px;
+    outline: none;
+    vertical-align: top;
+}

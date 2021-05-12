@@ -1,0 +1,61 @@
+.CreateProductProgressBar{
+    padding-top: 21px;
+}
+.CreateProduct{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgba(34,34,34,1);
+}
+.ProgressBar{
+    width:1272px;
+    border-radius:2px;
+    padding: 10px 0 0;
+}
+.ProgressBar ul {
+    display: flex;
+    justify-content: space-between;
+    background:rgba(255,255,255,1);
+    height: 80px;
+    line-height: 80px;
+    padding: 0 65px;
+}
+.ProgressBar ul li{
+    color:rgba(0,0,0,0.45);
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.ProgressBar ul li::before{
+    content: "";
+   position: absolute;
+   width:140px;
+   height:1px;
+  background:rgba(233,233,233,1);
+  top: 40px;
+  right: -70px;
+}
+.ProgressBar ul li:last-child::before{
+    position: static;
+}
+
+.ProgressBar ul li.selected a{
+    background:#1890ff;
+    color: #fff;
+}
+.ProgressBar ul li.completed a{
+    border-color: #1890ff;
+}
+.ProgressBar ul li.completed a::after{
+    content: "1";
+    width: 6px;
+    height: 14px;
+    border-color: #1890ff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin: 4px auto;
+    color: transparent;
+    overflow: hidden;
+}

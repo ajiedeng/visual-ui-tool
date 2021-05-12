@@ -1,0 +1,66 @@
+.mask{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: .8;
+}
+.popup{
+  padding: 30px 20px;
+  width: 500px;
+  background: #fff !important;
+  z-index: 11;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 1;
+  .title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  .mutexCondition{
+
+  }
+  .mutexLimits{
+    height: 250px;
+    overflow: scroll;
+  }
+  .popupBottom{
+    height: 100px;
+    position: relative;
+    .bottomBtn{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      left: 230px;
+      transform: translate(-50%);
+    }
+  }
+  .selectBox{
+    .selectBar{
+      margin-bottom: 0.8rem;
+      span{
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .select{
+        width: 260px;
+        margin-left: 30px;
+      }
+    }
+
+  }
+
+
+}
